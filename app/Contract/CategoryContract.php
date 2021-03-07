@@ -20,6 +20,8 @@ interface CategoryContract
      */
     public function findCategoryById(int $id);
 
+    public function findBySlug($slug);
+
     /**
      * @param array $params
      * @return mixed

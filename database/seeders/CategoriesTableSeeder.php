@@ -23,6 +23,6 @@ class CategoriesTableSeeder extends Seeder
             'menu'          =>  0,
         ]);
 
-        Category::factory()->count(100)->create();
+        Category::factory()->count(6)->create();
     }
 }

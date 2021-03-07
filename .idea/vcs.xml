@@ -2,7 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$" vcs="" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ecommerce-app-laravel" vcs="" />
     <mapping directory="$PROJECT_DIR$/laravel-ecommece" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/test-ecommerce-laravel" vcs="" />

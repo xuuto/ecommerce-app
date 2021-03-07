@@ -14,9 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
+Route::view('/', 'site.pages.homepage');
+Route::get('/category/{slug}', 'Site\CategoryController@show')->name('category.show');
 
 // Route::view('/admin', 'admin.dashboard.index');
 

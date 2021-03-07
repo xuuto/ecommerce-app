@@ -48,6 +48,14 @@ class categoryRepository extends BaseRepository implements CategoryContract
         }
     }
 
+    public function findBySlug ($slug)
+    {
+        return Category::with('products')
+            ->where('slug', $slug)
+            ->where('menu', 1)
+            ->first();
+    }
+
     /**
      * @param array $params
      * @return Category
